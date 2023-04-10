@@ -8,7 +8,7 @@ public class d_type {
         System.out.println(var);
         double f1 = 10.52; 
         System.out.println(f1);
-        float price = 10.5;
+        // float price = 10.5;
         //long
        
         short n = 240;
