@@ -26,7 +26,17 @@ public class prime {
     return true;
     }
 
+    public static void primesinrange(int n){
+        for(int i = 2; i<=n; i++){
+           if (isprime(i)){
+            System.out.print(i+" ");
+           }
+        }
+        System.out.println();
+    }
+
     public static void main(String args[]) {
-        System.out.println(isprime(6));
+        // System.out.println(isprime(6));
+       primesinrange(20);
     }
 }
