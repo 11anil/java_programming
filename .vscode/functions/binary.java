@@ -1,4 +1,8 @@
 public class binary {
+
+//binary  to  decimal conversion
+
+
     public static void bintodec(int binarynum){
         int mynum = binarynum;
         int pow = 0;
@@ -13,6 +17,8 @@ public class binary {
         }
     System.out.println("Decimal of " +mynum +" = " + decnum);
     }
+
+    //decimal to binary conversion
         
 public static void dectobin(int n){
     int mynum = n;
