@@ -52,7 +52,7 @@ public class IARhPyramid {
         }
       }
 
-     public static void butterfly(int n){
+      public static void butterfly(int n){
         //outer loop
         for(int i=1; i<=n; i++){
             // 1st half
