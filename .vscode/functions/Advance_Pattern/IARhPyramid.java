@@ -51,11 +51,53 @@ public class IARhPyramid {
           System.out.println();
         }
       }
+
+     public static void butterfly(int n){
+        //outer loop
+        for(int i=1; i<=n; i++){
+            // 1st half
+
+            //starts - i
+            for(int j=1; j<=i; j++){
+                System.out.print("*");
+            }
+            // spaces - 2*(n-i)
+            for(int j=1; j<=2*(n-i); j++){
+                System.out.print(" ");
+            }
+            //stars - i
+            for(int j=1; j<=i; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        //mirror image
+
+        //2nd half
+        for(int i=n; i>=1; i--){
+             //starts - i
+             for(int j=1; j<=i; j++){
+                System.out.print("*");
+            }
+            // spaces - 2*(n-i)
+            for(int j=1; j<=2*(n-i); j++){
+                System.out.print(" ");
+            }
+            //stars - i
+            for(int j=1; j<=i; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        }
+         
     
     public static void main(String args[]){
         // inverted_rotated_half_pyramid(4);
         // inverted_half_pyramid_with_num(5);
         // floyd_triangle(5 );
-        zero_one_triangle(5);
+        // zero_one_triangle(5);
+
+        butterfly(6);
     }
 }
