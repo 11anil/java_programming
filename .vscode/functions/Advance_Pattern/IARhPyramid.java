@@ -90,7 +90,19 @@ public class IARhPyramid {
             System.out.println();
         }
         }
-         
+         public static void solid_rhombus(int n){
+            for(int i=1; i<=n; i++){
+                //spaces
+                for(int j=1; j<=(n-i); j++){
+                    System.out.print(" ");
+                }
+                //stars
+                for(int j=1; j<=n; j++){
+                    System.out.print("*");
+                }
+                System.out.println();
+            }
+         }
     
     public static void main(String args[]){
         // inverted_rotated_half_pyramid(4);
@@ -98,6 +110,7 @@ public class IARhPyramid {
         // floyd_triangle(5 );
         // zero_one_triangle(5);
 
-        butterfly(6);
+        // butterfly(6);
+        solid_rhombus(4);
     }
 }
