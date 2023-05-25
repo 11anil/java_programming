@@ -103,6 +103,25 @@ public class IARhPyramid {
                 System.out.println();
             }
          }
+         public static void hollow_Rhhombus(int n){
+            for(int i=1; i<=n; i++){
+                //spaces
+
+                for(int j=1; j<=(n-i); j++){
+                    System.out.print(" ");
+                }
+                //holow_rectangle - stars
+                for(int j=1; j<=n; j++){
+                    if(i==1 || i==n || j==1 || j==n){
+                        System.out.print("*");
+                    }
+                    else{
+                        System.out.print(" ");
+                    }
+                }
+                System.out.println();
+            }
+         }
     
     public static void main(String args[]){
         // inverted_rotated_half_pyramid(4);
@@ -111,6 +130,7 @@ public class IARhPyramid {
         // zero_one_triangle(5);
 
         // butterfly(6);
-        solid_rhombus(4);
+        // solid_rhombus(4);
+        hollow_Rhhombus(4);
     }
 }
