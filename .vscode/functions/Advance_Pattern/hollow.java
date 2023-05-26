@@ -20,6 +20,7 @@ public class hollow {
        System.out.println();
     }
 }
+
     public static void main(String args[]){
      hollow_rectangle(4, 5);
     }

@@ -1,0 +1,8 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.sourcePaths": [
+        "java/02_Arrays",
+        ".vscode/functions",
+        "java/04_2-d Arrays"
+    ]
+}
