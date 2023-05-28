@@ -29,7 +29,8 @@ public class equal {
         // }
 
         String str = "HELLOWORLD";
-        System.out.println(substring(str, 0, 5));
+        // System.out.println(substring(str, 0, 5));
+        System.out.println(str.substring(0,5));
     }
 }
 //this method(.equals) is used when the value of strings are same
