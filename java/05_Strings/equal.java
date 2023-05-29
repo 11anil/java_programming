@@ -6,6 +6,8 @@ public class equal {
      }
      return substr;
     }
+
+    
     public static void main(String args[]){
         // String s1 = "Tony";
         // String s2 = "Tony";
@@ -28,9 +30,20 @@ public class equal {
         //     System.out.println("String are not equal");
         // }
 
-        String str = "HELLOWORLD";
-        // System.out.println(substring(str, 0, 5));
-        System.out.println(str.substring(0,5));
+        // String str = "HELLOWORLD";
+        // // System.out.println(substring(str, 0, 5));
+        // System.out.println(str.substring(0,5));
+
+
+
+        String fruits[]= {"Mango" ,"Apple" ,"Banana"};
+        String largest = fruits[0];
+        for(int i=1; i<fruits.length; i++){
+            if(largest.compareTo(fruits[i]) < 0){
+                largest = fruits[i];
+            }
+        }
+System.out.println(largest);
     }
 }
 //this method(.equals) is used when the value of strings are same
