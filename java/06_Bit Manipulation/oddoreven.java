@@ -18,13 +18,17 @@ public class oddoreven {
             return 1;
         }
     }
-
+       public static int setIthBit(int n, int i){
+        int bitMask = 1<<i;
+        return n|bitMask;
+       }
     public static void main(String args[]) {
         // OddorEven(11);
         // OddorEven(13);
         // OddorEven(14);
 
-        System.out.println(getIthBit(10, 3));
+        // System.out.println(getIthBit(10, 3));
+        System.out.println(setIthBit(10,2));
 
     }
 }
