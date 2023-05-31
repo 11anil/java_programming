@@ -38,7 +38,10 @@ public class oddoreven {
            return n | bitMask;
         }
      
-    
+    public static int clearIbits(int n , int i){
+        int bitMask = ~(0) <<i ;
+        return n & bitMask;
+    }
        
     public static void main(String args[]) {
         // OddorEven(11);
@@ -48,6 +51,7 @@ public class oddoreven {
         // System.out.println(getIthBit(10, 3));
         // System.out.println(setIthBit(10,2));
         // System.out.println(clearIthBit(10,1));
-        System.out.println(updateIthBit(10,2,1));
+        // System.out.println(updateIthBit(10,2,1));
+        System.out.println(clearIbits(15,2));
     }
 }
