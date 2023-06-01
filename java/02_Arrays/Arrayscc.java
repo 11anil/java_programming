@@ -21,6 +21,7 @@ public class Arrayscc {
 
     //   int percentage = ((marks[0] + marks[1] + marks[2] )/ 3);
     //   System.out.println("percentage = " + percentage + "%" ) ;
+    sc.close();
     }
 }
 

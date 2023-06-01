@@ -1,4 +1,4 @@
-import java.util.*;
+// import java.util.*;
 
 public class oddoreven {
     public static void OddorEven(int n) {

@@ -16,5 +16,6 @@ public class hw{
         int b = sc.nextInt();
         calculatesum(a, b);
         // printhelloworld();
+        sc.close();
     }
 }

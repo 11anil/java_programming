@@ -1,4 +1,4 @@
-package conditional_statements;
+package java.conditional_statements;
 import java.util.*;
 public class calculator {
     public static void main(String args[]){

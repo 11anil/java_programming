@@ -35,9 +35,12 @@ public class creation {
                 System.out.print(matrix[i][j] + " ");
             }
             System.out.println();
+         in.close();
         }
+        
        search(matrix, 5);
-
+       
     }
+    
      
 }
