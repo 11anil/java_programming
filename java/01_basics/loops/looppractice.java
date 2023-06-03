@@ -47,6 +47,6 @@ public class looppractice{
     }
     System.out.println("Factorial = " + fact);
 
-    
+    sc.close();
   }
 }

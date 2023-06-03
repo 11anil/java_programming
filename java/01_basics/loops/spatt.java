@@ -1,4 +1,4 @@
-package loops;
+
 
 public class spatt {
     public static void main(String args[]){

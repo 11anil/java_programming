@@ -1,4 +1,4 @@
-package loops;
+
 
 public class w100 {
     public static void main(String args[]){

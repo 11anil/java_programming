@@ -1,4 +1,4 @@
-package loops;
+
 
 public class one_to_10 {
     public static void main(String args[]) {

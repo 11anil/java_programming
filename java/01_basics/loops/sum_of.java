@@ -1,4 +1,4 @@
-package loops;
+
 import java.util.*;
 public class sum_of {
     public static void main(String rgs[]){

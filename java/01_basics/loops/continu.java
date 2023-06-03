@@ -29,9 +29,9 @@ class Continu {
                 continue;
             } 
             System.out.println("Number entered: " + n);
-            // sc.close(); 
+            sc.close(); 
         } while (true);
-         
+        
     }
 }
 

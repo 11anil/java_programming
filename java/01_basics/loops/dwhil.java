@@ -1,4 +1,4 @@
-package loops;
+
 
 public class dwhil {
     public static void main(String args[]){

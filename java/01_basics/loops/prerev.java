@@ -1,4 +1,4 @@
-package loops;
+// package ;
 public class prerev {
     public static void main(String args[]){
      int n = 2345;
